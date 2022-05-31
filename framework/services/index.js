@@ -1,7 +1,7 @@
-import email_verification from './apilayer.service.js';
+import emailVerification from './apilayer.service.js';
 
 const api = () => ({
-  Email: () => ({ ...email_verification }),
+  Email: () => ({ ...emailVerification }),
 });
 
 export default api;

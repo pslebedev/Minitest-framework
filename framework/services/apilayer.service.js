@@ -2,7 +2,7 @@
 import fetch from 'node-fetch'
 import urls from '../config/urls.js';
 
-const email_verification = {
+const emailVerification = {
   get: async (token, email) => {
     const response = await fetch(`${urls.apilayer}email_verification/check?email=${email}`, { method: 'GET',
        headers: {
@@ -13,4 +13,4 @@ const email_verification = {
     },
 };
 
-export default email_verification;
+export default emailVerification;

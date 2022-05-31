@@ -1,4 +1,4 @@
-import {token, email,empty, notValid, notSupplied, witoutApiKey} from '../framework/config/const.js'
+import {token, email,empty, notValid, notSupplied, witoutApiKey} from '../framework/config/index.js'
 import api from '../framework/services/index.js'
 
 describe('Validates and verifies an email address ', () => {
